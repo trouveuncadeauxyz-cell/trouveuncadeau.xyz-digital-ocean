@@ -6,6 +6,7 @@ Utilise LangChain pour l'intégration IA et Airtable pour la base de données pr
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from app.core import configure_middleware
 from dotenv import load_dotenv
 import os
 import logging
@@ -30,6 +31,9 @@ app = FastAPI(
     docs_url="/api/docs",
     openapi_url="/api/openapi.json"
 )
+
+# Configure middleware
+configure_middleware(app, enable_cors=True)
 
 # Configuration CORS
 app.add_middleware(
