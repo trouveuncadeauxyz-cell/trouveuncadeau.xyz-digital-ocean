@@ -1,0 +1,44 @@
+# FastAPI Backend Dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+cors==1.0.1
+
+# LangChain & AI Integration
+langchain==0.1.1
+langchain-openai==0.0.5
+langchain-anthropic==0.1.1
+langchain-google-genai==0.0.5
+langchain-community==0.0.10
+
+# Vector Database & Embedding
+faiss-cpu==1.7.4
+embedding-as-a-service==0.3.0
+
+# Data Processing
+airtable==2.0.2
+pandas==2.1.3
+numpy==1.26.2
+
+# Frontend - Streamlit
+streamlit==1.29.0
+streamlit-option-menu==0.3.6
+
+# Utilities
+requests==2.31.0
+httpx==0.25.2
+typing-extensions==4.8.0
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.12.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Monitoring & Logging
+loguru==0.7.2
+sentry-sdk==1.39.1
+datadog==0.47.0
