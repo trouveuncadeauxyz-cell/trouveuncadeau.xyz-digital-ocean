@@ -307,7 +307,7 @@ Pour questions ou support:
 - Email: support@trouveuncadeau.xyz
 - Issues: GitHub Issues
 - Documentation: https://trouveuncadeau.xyz/docs
-
+- add new auto update
 ---
 
 **Deadline CRITIQUE: PREMIÈRE VENTE AVANT MINUIT - November 30, 2025 🎯**
